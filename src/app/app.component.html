@@ -1,13 +1,8 @@
 
-<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
-  <div class="container">
-      <a class="navbar-brand">Shannon Sokolik</a>
-      <ul class="nav navbar-nav" routerLinkActive="active">
-          <li class="nav-item"><a class="nav-link" routerLink="webDevelopment">Web Development</a></li>
-          <li class="nav-item"><a class="nav-link" routerLink="design">Design</a></li>
-          <li class="nav-item"><a class="nav-link" routerLink="experience">Experience</a></li>
-      </ul>
-  </div>
-</nav>
+    <button mat-button [matMenuTriggerFor]="story">Home</button>
+    <button mat-button [matMenuTriggerFor]="development">Web Development</button>
+    <button mat-button [matMenuTriggerFor]="design">Design</button>
+    <button mat-button [matMenuTriggerFor]="experience">Experience</button>
+
 
 <router-outlet></router-outlet>
