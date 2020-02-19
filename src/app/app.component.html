@@ -1,8 +1,14 @@
 
-    <button mat-button [matMenuTriggerFor]="story">Home</button>
-    <button mat-button [matMenuTriggerFor]="development">Web Development</button>
-    <button mat-button [matMenuTriggerFor]="design">Design</button>
-    <button mat-button [matMenuTriggerFor]="experience">Experience</button>
+<mat-toolbar color="primary">
+    <span>Shannon Sokolik</span>
+  
+    <!-- This fills the remaining space of the current row -->
+    <span class="example-fill-remaining-space"></span>
+  
+    <span>Web Development</span>
+    <span>Design</span>
+    <span>Experience</span>
+  </mat-toolbar>
 
 
 <router-outlet></router-outlet>
