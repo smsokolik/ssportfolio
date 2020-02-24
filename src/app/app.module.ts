@@ -8,6 +8,7 @@ import { DesignComponent } from './design/design.component';
 import { DevelopmentComponent } from './development/development.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ExperienceComponent } from './experience/experience.component';
+import { MaterialModule } from './materialModule';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ExperienceComponent } from './experience/experience.component';
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

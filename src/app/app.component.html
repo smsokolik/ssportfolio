@@ -1,13 +1,17 @@
 
 <mat-toolbar color="primary">
-    <span>Shannon Sokolik</span>
+
+    <span [routerLink]="['story']" routerLinkActive = "story">SS</span>
   
     <!-- This fills the remaining space of the current row -->
     <span class="example-fill-remaining-space"></span>
   
-    <span>Web Development</span>
-    <span>Design</span>
-    <span>Experience</span>
+    <span [routerLink]="['development']" routerLinkActive = "development">Web Development</span>
+
+    <span [routerLink]="['design']" routerLinkActive = "design">Design</span>
+
+    <span [routerLink]="['experience']" routerLinkActive = "experience">Experience</span>
+
   </mat-toolbar>
 
 
