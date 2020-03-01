@@ -10,8 +10,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ExperienceComponent } from './experience/experience.component';
 import { MaterialModule } from './materialModule';
 import { AnimationComponent } from './animation/animation.component';
-import { MatVideoModule } from 'mat-video';
-import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +19,6 @@ import { VideoComponent } from './video/video.component';
     DevelopmentComponent,
     ExperienceComponent,
     AnimationComponent,
-    VideoComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +26,6 @@ import { VideoComponent } from './video/video.component';
     FormsModule,
     BrowserAnimationsModule,
     MaterialModule,
-    MatVideoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
