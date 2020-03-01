@@ -6,6 +6,8 @@ import { StoryComponent } from './story/story.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { AnimationComponent } from './animation/animation.component';
 import { VideoComponent } from './video/video.component';
+import { InfographicsComponent } from './infographics/infographics.component';
+import { MobileComponent } from './mobile/mobile.component';
 
 const routes: Routes = [
   {path: 'story', component: StoryComponent},
@@ -13,7 +15,9 @@ const routes: Routes = [
   {path: 'development', component: DevelopmentComponent},
   {path: 'experience', component: ExperienceComponent},
   {path: 'animation', component: AnimationComponent},
-  {path: 'video',component: VideoComponent},
+  {path: 'video', component: VideoComponent},
+  {path: 'infographics', component: InfographicsComponent},
+  {path: 'mobile', component: MobileComponent},
   {path: '**', redirectTo: '/story'}
 ];
 

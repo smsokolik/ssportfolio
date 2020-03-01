@@ -11,6 +11,8 @@ import { ExperienceComponent } from './experience/experience.component';
 import { MaterialModule } from './materialModule';
 import { AnimationComponent } from './animation/animation.component';
 import { VideoComponent } from './video/video.component';
+import { InfographicsComponent } from './infographics/infographics.component';
+import { MobileComponent } from './mobile/mobile.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { VideoComponent } from './video/video.component';
     ExperienceComponent,
     AnimationComponent,
     VideoComponent,
+    InfographicsComponent,
+    MobileComponent,
   ],
   imports: [
     BrowserModule,
