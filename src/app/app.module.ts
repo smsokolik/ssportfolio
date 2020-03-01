@@ -9,6 +9,7 @@ import { DevelopmentComponent } from './development/development.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ExperienceComponent } from './experience/experience.component';
 import { MaterialModule } from './materialModule';
+import { AnimationComponent } from './animation/animation.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MaterialModule } from './materialModule';
     StoryComponent,
     DesignComponent,
     DevelopmentComponent,
-    ExperienceComponent
+    ExperienceComponent,
+    AnimationComponent
   ],
   imports: [
     BrowserModule,

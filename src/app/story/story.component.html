@@ -1,9 +1,31 @@
+
 <body>
     <main>
+    <p class = "name">Shannon Sokolik<p>
 
-    <h1>Shannon Sokolik</h1>
-
-    <p>Visual designer with experience conceptualizing, designing and programming web and mobile applications that create positive user experiences.</p>
+    <p class = "topbar"> Visual designer with experience conceptualizing, designing and programming web and mobile applications that create positive user experiences.</p>
     </main>
     
-</body>
+
+    <div class="greybox container-fluid">
+
+        <div class="row">
+            <div class="col-md-6">
+              <div class="boxleft col-12">
+                <img src="assets/images/design.png" [routerLink]="['design']">
+              <h3>DESIGN</h3>
+              <p>More than 20 years of experience working in web design, branding, television and print. </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+                <div class="boxright col-12">
+                <img src="assets/images/development.png" [routerLink]="['development']">
+              <h3>WEB DEVELOPMENT</h3>
+              <p>New developer with a focus on creating clean, simple and efficient code.</p>
+              </div> 
+            </div>
+        </div>
+    </div>
+    <router-outlet></router-outlet>
+    
+

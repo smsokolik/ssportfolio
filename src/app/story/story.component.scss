@@ -1,19 +1,38 @@
-body {
+
+
+main {
     background-color: rgb(54, 54, 54);
     color: whitesmoke;
-
-}
-main {
+    height: 350px;
     padding: 75px;
+}
 
+.name{
+    font-size: 45px;
+    font-weight: thin;
 }
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
+
+.topbar{
+    font-size: 25px;
+    font-weight: thin;
+}
+h3{
+    padding-top: 20px;
+}
+
+.boxleft {
+    padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-bottom: 20px;
+    text-align: center;
 }
-h1{
-    text-align: left;
+.boxright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    margin-bottom: 20px;
+    text-align: center;
 }
