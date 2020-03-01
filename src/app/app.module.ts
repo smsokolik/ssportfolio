@@ -10,6 +10,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ExperienceComponent } from './experience/experience.component';
 import { MaterialModule } from './materialModule';
 import { AnimationComponent } from './animation/animation.component';
+import { MatVideoModule } from 'mat-video';
+import { VideoComponent } from './video/video.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +20,16 @@ import { AnimationComponent } from './animation/animation.component';
     DesignComponent,
     DevelopmentComponent,
     ExperienceComponent,
-    AnimationComponent
+    AnimationComponent,
+    VideoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    MatVideoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
