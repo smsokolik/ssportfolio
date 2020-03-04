@@ -8,6 +8,8 @@ import { AnimationComponent } from './animation/animation.component';
 import { VideoComponent } from './video/video.component';
 import { InfographicsComponent } from './infographics/infographics.component';
 import { MobileComponent } from './mobile/mobile.component';
+import { EmailComponent } from './email/email.component';
+import { SocialComponent } from './social/social.component';
 
 const routes: Routes = [
   {path: 'story', component: StoryComponent},
@@ -18,6 +20,8 @@ const routes: Routes = [
   {path: 'video', component: VideoComponent},
   {path: 'infographics', component: InfographicsComponent},
   {path: 'mobile', component: MobileComponent},
+  {path: 'email', component: EmailComponent},
+  {path: 'social', component: SocialComponent},
   {path: '**', redirectTo: '/story'}
 ];
 
