@@ -240,4 +240,7 @@ $altTheme: mat-light-theme($theme-primary, $theme-accent, $theme-warn);
   padding: .5em .85em;
   min-height: 2.5em;
 }
+*:focus {
+  outline: 0;
+}
 
