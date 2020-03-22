@@ -10,6 +10,8 @@ import { InfographicsComponent } from './infographics/infographics.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { EmailComponent } from './email/email.component';
 import { SocialComponent } from './social/social.component';
+import { DebateComponent } from './debate/debate.component';
+import { ShortsComponent } from './shorts/shorts.component';
 
 const routes: Routes = [
   {path: 'story', component: StoryComponent},
@@ -22,7 +24,10 @@ const routes: Routes = [
   {path: 'mobile', component: MobileComponent},
   {path: 'email', component: EmailComponent},
   {path: 'social', component: SocialComponent},
+  {path: 'debate', component: DebateComponent},
+  {path: 'shorts', component: ShortsComponent},
   {path: '**', redirectTo: '/story'}
+  
 ];
 
 @NgModule({

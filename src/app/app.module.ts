@@ -15,6 +15,8 @@ import { InfographicsComponent } from './infographics/infographics.component';
 import { MobileComponent } from './mobile/mobile.component';
 import { EmailComponent } from './email/email.component';
 import { SocialComponent } from './social/social.component';
+import { DebateComponent } from './debate/debate.component';
+import { ShortsComponent } from './shorts/shorts.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,8 @@ import { SocialComponent } from './social/social.component';
     MobileComponent,
     EmailComponent,
     SocialComponent,
+    DebateComponent,
+    ShortsComponent,
   ],
   imports: [
     BrowserModule,
